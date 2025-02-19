@@ -1,0 +1,28 @@
+﻿# ASP.NET Core
+bin/
+obj/
+*.db
+*.mdf
+*.log
+
+# Configuration
+appsettings*.json
+secrets.json
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# User-specific files
+*.userosscache
+*.userprefs
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
