@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labb3-API", "Labb3-API.csproj", "{CD077122-92C9-425C-A64C-E8203CD93142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WB_Labb3_SharedModels", "..\..\..\Documents\Programmering\WB_Labb3_SharedModels\WB_Labb3_SharedModels.csproj", "{40A07FD2-96D9-4682-9958-2636A7816C4B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{CD077122-92C9-425C-A64C-E8203CD93142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD077122-92C9-425C-A64C-E8203CD93142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD077122-92C9-425C-A64C-E8203CD93142}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40A07FD2-96D9-4682-9958-2636A7816C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40A07FD2-96D9-4682-9958-2636A7816C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40A07FD2-96D9-4682-9958-2636A7816C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40A07FD2-96D9-4682-9958-2636A7816C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

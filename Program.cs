@@ -7,10 +7,20 @@ namespace Labb3_API
 {
     public class Program
     {
-       
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            //COrs
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
 
             // Add services to the container.
 
@@ -24,6 +34,9 @@ namespace Labb3_API
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
+
+            // Använd CORS-policy
+            app.UseCors("AllowAll");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
